@@ -1,1474 +1,1474 @@
 {
-"products": [
-  {
-    "id": 1,
-    "name": "Red Bench",
-    "category": "people",
-    "price": 3.89,
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/10162903/pexels-photo-10162903.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "girl"
-    },
-    "bestseller": true,
-    "featured": true,
-    "details": {
-      "dimmentions": {
-        "width": 4000,
-        "height": 5000
+  "products": [
+    {
+      "id": 1,
+      "name": "Red Bench",
+      "category": "people",
+      "price": 3.89,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/10162903/pexels-photo-10162903.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "girl"
       },
-      "size": 17.9,
-      "description": "Woman in Black Spaghetti Strap Top and Blue Denim Jeans Sitting on Red Seat",
-      "recommendations": [
-        {
-          "src": "https://images.pexels.com/photos/9507105/pexels-photo-9507105.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "alt": "a girl who sit in red desk"
+      "bestseller": true,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 4000,
+          "height": 5000
         },
-        {
-          "src": "https://images.pexels.com/photos/7434640/pexels-photo-7434640.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "alt": "red-desk"
-        },
-        {
-          "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "alt": "red-desk2"
-        }
-      ]
-    }
-  },
-  {
-    "id": 2,
-    "name": "Balloon",
-    "category": "premium",
-    "price": 93.89,
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/5320085/pexels-photo-5320085.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "balloon"
+        "size": 17.9,
+        "description": "Woman in Black Spaghetti Strap Top and Blue Denim Jeans Sitting on Red Seat",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/9507105/pexels-photo-9507105.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "a girl who sit in red desk"
+          },
+          {
+            "src": "https://images.pexels.com/photos/7434640/pexels-photo-7434640.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "red-desk"
+          },
+          {
+            "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "red-desk2"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3171,
-      "height": 4757
-     },
-      "size": 10.2,
-      "description": "Orange Hot Air Balloon on the Field",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/5318767/pexels-photo-5318767.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Cappadocia"
+    {
+      "id": 2,
+      "name": "Balloon",
+      "category": "premium",
+      "price": 93.89,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/5320085/pexels-photo-5320085.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "balloon"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3171,
+          "height": 4757
         },
-        {
-         "src": "https://images.pexels.com/photos/5177690/pexels-photo-5177690.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "fire"
-        },
-        {
-         "src": "https://images.pexels.com/photos/5533202/pexels-photo-5533202.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Turkey"
-        }
-       ]
-    }
-  },
-  {
-    "id": 3,
-    "name": "Cat",
-    "category": "pets",
-    "price": 101,
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "green eyes"
+        "size": 10.2,
+        "description": "Orange Hot Air Balloon on the Field",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/5318767/pexels-photo-5318767.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Cappadocia"
+          },
+          {
+            "src": "https://images.pexels.com/photos/5177690/pexels-photo-5177690.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "fire"
+          },
+          {
+            "src": "https://images.pexels.com/photos/5533202/pexels-photo-5533202.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Turkey"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 4928,
-      "height": 3264
-     },
-      "size": 8.66,
-      "description": "Brown Cat With Green Eyes",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "white cat"
+    {
+      "id": 3,
+      "name": "Cat",
+      "category": "pets",
+      "price": 101,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "green eyes"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 4928,
+          "height": 3264
         },
-        {
-         "src": "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "yellow cat"
-        },
-        {
-         "src": "https://images.pexels.com/photos/1521306/pexels-photo-1521306.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "gray cat"
-        }
-       ]
-    }
-  },
-  {
-    "id": 4,
-    "name": "Hamburger",
-    "category": "food",
-    "price": 201,
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "hamburger"
+        "size": 8.66,
+        "description": "Brown Cat With Green Eyes",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "white cat"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "yellow cat"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1521306/pexels-photo-1521306.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "gray cat"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 6281,
-      "height": 4187
-     },
-      "size": 1.48,
-      "description": "Close-Up Photo of Burger",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "tasty"
+    {
+      "id": 4,
+      "name": "Hamburger",
+      "category": "food",
+      "price": 201,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "hamburger"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 6281,
+          "height": 4187
         },
-        {
-         "src": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "delicious"
-        },
-        {
-         "src": "https://images.pexels.com/photos/2454533/pexels-photo-2454533.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "lunch"
-        }
-       ]
-    }
-  },
-  {
-    "id": 5,
-    "name": "Amasya",
-    "category": "landmarks",
-    "price": 11,
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/9000219/pexels-photo-9000219.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "yaliboyu"
+        "size": 1.48,
+        "description": "Close-Up Photo of Burger",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "tasty"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "delicious"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2454533/pexels-photo-2454533.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "lunch"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3024,
-      "height": 4032
-     },
-      "size": 3.12,
-      "description": "Located in a beautifully restored old mansion, this is a sort of an ethnographic museum where daily life in an Ottoman house is enacted. The building dates back to 1865 and gets its name from the lady who lived in this house for a long time.",
-      "recommendations": [
-        {
-         "src": "https://media.istockphoto.com/photos/amasya-picture-id476028309?b=1&k=20&m=476028309&s=612x612&w=0&h=JW81FxQK7xwwz5u1zs9XsygNeWXwpK24DhEqQhX9d6w=",
-         "alt": "hazeranlar"
+    {
+      "id": 5,
+      "name": "Amasya",
+      "category": "landmarks",
+      "price": 11,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/9000219/pexels-photo-9000219.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "yaliboyu"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3024,
+          "height": 4032
         },
-        {
-         "src": "https://media.istockphoto.com/photos/aerial-view-of-amasya-city-in-turkey-picture-id1279535130?b=1&k=20&m=1279535130&s=612x612&w=0&h=QxObvEDkZULRQ9spqjeBMuAr5tOwyxWMqrhNCRU-n24=",
-         "alt": "amasya"
-        },
-        {
-         "src": "https://media.istockphoto.com/photos/amasya-city-view-picture-id1004973376?b=1&k=20&m=1004973376&s=612x612&w=0&h=nt8vCbe1i7_TMDNtAJWNHopPmzQkxVI1xbBvosKe34A=",
-         "alt": "amassia"
-        }
-       ]
-    }
-  },
-  {
-    "id": 6,
-    "name": "Rotterdam",
-    "category": "cities",
-    "price": "55",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/164350/pexels-photo-164350.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "rotterdam"
+        "size": 3.12,
+        "description": "Located in a beautifully restored old mansion, this is a sort of an ethnographic museum where daily life in an Ottoman house is enacted. The building dates back to 1865 and gets its name from the lady who lived in this house for a long time.",
+        "recommendations": [
+          {
+            "src": "https://media.istockphoto.com/photos/amasya-picture-id476028309?b=1&k=20&m=476028309&s=612x612&w=0&h=JW81FxQK7xwwz5u1zs9XsygNeWXwpK24DhEqQhX9d6w=",
+            "alt": "hazeranlar"
+          },
+          {
+            "src": "https://media.istockphoto.com/photos/aerial-view-of-amasya-city-in-turkey-picture-id1279535130?b=1&k=20&m=1279535130&s=612x612&w=0&h=QxObvEDkZULRQ9spqjeBMuAr5tOwyxWMqrhNCRU-n24=",
+            "alt": "amasya"
+          },
+          {
+            "src": "https://media.istockphoto.com/photos/amasya-city-view-picture-id1004973376?b=1&k=20&m=1004973376&s=612x612&w=0&h=nt8vCbe1i7_TMDNtAJWNHopPmzQkxVI1xbBvosKe34A=",
+            "alt": "amassia"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 4239,
-      "height": 2793
-     },
-      "size": 1.73,
-      "description": "High Rise Building Near Body of Water",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/3243763/pexels-photo-3243763.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Photo Of City During Daytime"
+    {
+      "id": 6,
+      "name": "Rotterdam",
+      "category": "cities",
+      "price": "55",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/164350/pexels-photo-164350.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "rotterdam"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 4239,
+          "height": 2793
         },
-        {
-         "src": "https://images.pexels.com/photos/1209521/pexels-photo-1209521.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Low Angle of Yellow Houses"
-        },
-        {
-         "src": "https://images.pexels.com/photos/1006032/pexels-photo-1006032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Body Of Water"
-        }
-       ]
-    }
-  },
-  {
-    "id": 7,
-    "name": "Forest",
-    "category": "nature",
-    "price": "114",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "forest"
+        "size": 1.73,
+        "description": "High Rise Building Near Body of Water",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/3243763/pexels-photo-3243763.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Photo Of City During Daytime"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1209521/pexels-photo-1209521.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Low Angle of Yellow Houses"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1006032/pexels-photo-1006032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Body Of Water"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 2500,
-      "height": 1667
-     },
-      "size": 5.36,
-      "description": "Person Walking Between Green Forest Trees",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Scenic View Of Snow Capped Mountains During Night"
+    {
+      "id": 7,
+      "name": "Forest",
+      "category": "nature",
+      "price": "114",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "forest"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 2500,
+          "height": 1667
         },
-        {
-         "src": "https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Brown Landscape Under Grey Sky"
-        },
-        {
-         "src": "https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Aurora Borealis"
-        }
-       ]
-    }
-  },
-  {
-    "id": 8,
-    "name": "Man",
-    "category": "people",
-    "price": "216",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "man"
+        "size": 5.36,
+        "description": "Person Walking Between Green Forest Trees",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Scenic View Of Snow Capped Mountains During Night"
+          },
+          {
+            "src": "https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Brown Landscape Under Grey Sky"
+          },
+          {
+            "src": "https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Aurora Borealis"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 1020,
-      "height": 1020
-     },
-      "size": 15000,
-      "description": "Person Standing Near Lake",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Man Wearing Grey Shirt Standing on Elevated Surface"
+    {
+      "id": 8,
+      "name": "Man",
+      "category": "people",
+      "price": "216",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "man"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 1020,
+          "height": 1020
         },
-        {
-         "src": "https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Photo of Man Wearing Hooded Jacket in Front of Body of Water"
-        },
-        {
-         "src": "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Man Standing on Street"
-        }
-       ]
-    }
-  },
-  {
-    "id": 9,
-    "name": "Mercedes",
-    "category": "premium",
-    "price": "19",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/3457780/pexels-photo-3457780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "mercedes"
+        "size": 15000,
+        "description": "Person Standing Near Lake",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Man Wearing Grey Shirt Standing on Elevated Surface"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Photo of Man Wearing Hooded Jacket in Front of Body of Water"
+          },
+          {
+            "src": "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Man Standing on Street"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3937,
-      "height": 5906
-     },
-      "size": 2.7,
-      "description": "Black Mercedes-Benz Vehicle",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/373282/pexels-photo-373282.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Mercedes-benz Emblem"
+    {
+      "id": 9,
+      "name": "Mercedes",
+      "category": "premium",
+      "price": "19",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/3457780/pexels-photo-3457780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "mercedes"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3937,
+          "height": 5906
         },
-        {
-         "src": "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "White Mercedes Benz Cars"
-        },
-        {
-         "src": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Yellow Mercedes-benz Beside Trees"
-        }
-       ]
-    }
-  },
-  {
-    "id": 10,
-    "name": "Dog",
-    "category": "pets",
-    "price": "28",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "dog"
+        "size": 2.7,
+        "description": "Black Mercedes-Benz Vehicle",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/373282/pexels-photo-373282.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Mercedes-benz Emblem"
+          },
+          {
+            "src": "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "White Mercedes Benz Cars"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Yellow Mercedes-benz Beside Trees"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 5257,
-      "height": 3505
-     },
-      "size": 15.59,
-      "description": "Short-coated Tan Dog",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Brown and White Short Coated Puppy"
+    {
+      "id": 10,
+      "name": "Dog",
+      "category": "pets",
+      "price": "28",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "dog"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 5257,
+          "height": 3505
         },
-        {
-         "src": "https://images.pexels.com/photos/933498/pexels-photo-933498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Dalmatian Sitting White Surface"
-        },
-        {
-         "src": "https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Dog Sleeping on Gray Textile"
-        }
-       ]
-    }
-  },
-  {
-    "id": 11,
-    "name": "Fruit",
-    "category": "food",
-    "price": "158",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "fruits"
+        "size": 15.59,
+        "description": "Short-coated Tan Dog",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Brown and White Short Coated Puppy"
+          },
+          {
+            "src": "https://images.pexels.com/photos/933498/pexels-photo-933498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Dalmatian Sitting White Surface"
+          },
+          {
+            "src": "https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Dog Sleeping on Gray Textile"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 2305,
-      "height": 1537
-     },
-      "size": 0.81,
-      "description": "Assorted Sliced Fruits",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Sliced Fruits on Tray"
+    {
+      "id": 11,
+      "name": "Fruit",
+      "category": "food",
+      "price": "158",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "fruits"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 2305,
+          "height": 1537
         },
-        {
-         "src": "https://images.pexels.com/photos/161559/background-bitter-breakfast-bright-161559.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Orange Fruit"
-        },
-        {
-         "src": "https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Grape Fruits"
-        }
-       ]
-    }
-  },
-  {
-    "id": 12,
-    "name": "Gaziantep",
-    "category": "landmarks",
-    "price": "265",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/8232149/pexels-photo-8232149.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "gaziantep"
+        "size": 0.81,
+        "description": "Assorted Sliced Fruits",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Sliced Fruits on Tray"
+          },
+          {
+            "src": "https://images.pexels.com/photos/161559/background-bitter-breakfast-bright-161559.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Orange Fruit"
+          },
+          {
+            "src": "https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Grape Fruits"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 5836,
-      "height": 3891
-     },
-      "size": 6.02,
-      "description": "White Concrete Building Under Blue Sky",
-      "recommendations": [
-        {
-         "src": "https://media.istockphoto.com/photos/gypsy-girl-picture-id523116511?b=1&k=20&m=523116511&s=612x612&w=0&h=4CUq0msvSZIkego6I9B9nv72id8HsWU_bPsZc9_tw4g=",
-         "alt": "zeugma"
+    {
+      "id": 12,
+      "name": "Gaziantep",
+      "category": "landmarks",
+      "price": "265",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/8232149/pexels-photo-8232149.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "gaziantep"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 5836,
+          "height": 3891
         },
-        {
-         "src": "https://images.pexels.com/photos/8232152/pexels-photo-8232152.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "mosque"
-        },
-        {
-         "src": "https://images.pexels.com/photos/11214456/pexels-photo-11214456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Traffic Light With Green Light"
-        }
-       ]
-    }
-  },
-  {
-    "id": 13,
-    "name": "Amsterdam",
-    "category": "cities",
-    "price": "13",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "amsterdam"
+        "size": 6.02,
+        "description": "White Concrete Building Under Blue Sky",
+        "recommendations": [
+          {
+            "src": "https://media.istockphoto.com/photos/gypsy-girl-picture-id523116511?b=1&k=20&m=523116511&s=612x612&w=0&h=4CUq0msvSZIkego6I9B9nv72id8HsWU_bPsZc9_tw4g=",
+            "alt": "zeugma"
+          },
+          {
+            "src": "https://images.pexels.com/photos/8232152/pexels-photo-8232152.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "mosque"
+          },
+          {
+            "src": "https://images.pexels.com/photos/11214456/pexels-photo-11214456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Traffic Light With Green Light"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 5582,
-      "height": 3141
-     },
-      "size": 10.61,
-      "description": "Photo of Boats Parked on River",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/1414467/pexels-photo-1414467.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Three Bicycle Upright Parked on Bridge"
+    {
+      "id": 13,
+      "name": "Amsterdam",
+      "category": "cities",
+      "price": "13",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "amsterdam"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 5582,
+          "height": 3141
         },
-        {
-         "src": "https://images.pexels.com/photos/1329510/pexels-photo-1329510.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Assorted High-rise Building"
-        },
-        {
-         "src": "https://images.pexels.com/photos/1790573/pexels-photo-1790573.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Bicycle Parked on a Bridge"
-        }
-       ]
-    }
-  },
-  {
-    "id": 14,
-    "name": "Waterfall",
-    "category": "nature",
-    "price": "49",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/1875480/pexels-photo-1875480.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "waterfall"
+        "size": 10.61,
+        "description": "Photo of Boats Parked on River",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/1414467/pexels-photo-1414467.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Three Bicycle Upright Parked on Bridge"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1329510/pexels-photo-1329510.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Assorted High-rise Building"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1790573/pexels-photo-1790573.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Bicycle Parked on a Bridge"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 4000,
-      "height": 6000
-     },
-      "size": 10.61,
-      "description": "Photo Of Waterfall",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Bridge Near Waterfall"
+    {
+      "id": 14,
+      "name": "Waterfall",
+      "category": "nature",
+      "price": "49",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1875480/pexels-photo-1875480.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "waterfall"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 4000,
+          "height": 6000
         },
-        {
-         "src": "https://images.pexels.com/photos/62627/niagara-cases-water-waterfall-62627.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Waterfalls during Daytime"
-        },
-        {
-         "src": "https://images.pexels.com/photos/949194/pexels-photo-949194.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Body of Water Across Forest"
-        }
-       ]
-    }
-  },
-  {
-    "id": 15,
-    "name": "Girl",
-    "category": "people",
-    "price": "183",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "a girl"
+        "size": 10.61,
+        "description": "Photo Of Waterfall",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Bridge Near Waterfall"
+          },
+          {
+            "src": "https://images.pexels.com/photos/62627/niagara-cases-water-waterfall-62627.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Waterfalls during Daytime"
+          },
+          {
+            "src": "https://images.pexels.com/photos/949194/pexels-photo-949194.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Body of Water Across Forest"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3840,
-      "height": 5760
-     },
-      "size": 16.49,
-      "description": "Woman Wearing Sunhat",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/609549/pexels-photo-609549.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Person Showing Left Eye"
+    {
+      "id": 15,
+      "name": "Girl",
+      "category": "people",
+      "price": "183",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "a girl"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3840,
+          "height": 5760
         },
-        {
-         "src": "https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Woman Waving Hair"
-        },
-        {
-         "src": "https://images.pexels.com/photos/371985/pexels-photo-371985.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Woman Touching Forehead With Left Hand and Wearing Headdress"
-        }
-       ]
-    }
-  },
-  {
-    "id": 16,
-    "name": "Tesla",
-    "category": "premium",
-    "price": "350",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/9482552/pexels-photo-9482552.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "model3"
+        "size": 16.49,
+        "description": "Woman Wearing Sunhat",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/609549/pexels-photo-609549.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Person Showing Left Eye"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Woman Waving Hair"
+          },
+          {
+            "src": "https://images.pexels.com/photos/371985/pexels-photo-371985.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Woman Touching Forehead With Left Hand and Wearing Headdress"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 4640,
-      "height": 6960
-     },
-      "size": 1.98,
-      "description": "White Car with Blacktop on the Road",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/10029872/pexels-photo-10029872.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Person Holding Black Card"
+    {
+      "id": 16,
+      "name": "Tesla",
+      "category": "premium",
+      "price": "350",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/9482552/pexels-photo-9482552.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "model3"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 4640,
+          "height": 6960
         },
-        {
-         "src": "https://images.pexels.com/photos/12086520/pexels-photo-12086520.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Grayscale Photo of a Car with Open Doors"
-        },
-        {
-         "src": "https://images.pexels.com/photos/7985589/pexels-photo-7985589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Man Driving a Tesla"
-        }
-       ]
-    }
-  },
-  {
-    "id": 17,
-    "name": "Bird",
-    "category": "pets",
-    "price": "5",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/927500/pexels-photo-927500.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "bird"
+        "size": 1.98,
+        "description": "White Car with Blacktop on the Road",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/10029872/pexels-photo-10029872.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Person Holding Black Card"
+          },
+          {
+            "src": "https://images.pexels.com/photos/12086520/pexels-photo-12086520.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Grayscale Photo of a Car with Open Doors"
+          },
+          {
+            "src": "https://images.pexels.com/photos/7985589/pexels-photo-7985589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Man Driving a Tesla"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 4269,
-      "height": 2332
-     },
-      "size": 6.94,
-      "description": "Shallow Focus Photo of Green Bird",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/6337786/pexels-photo-6337786.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-         "alt": "A Colorful Parrot in Close-up Photography"
+    {
+      "id": 17,
+      "name": "Bird",
+      "category": "pets",
+      "price": "5",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/927500/pexels-photo-927500.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "bird"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 4269,
+          "height": 2332
         },
-        {
-         "src": "https://images.pexels.com/photos/4062819/pexels-photo-4062819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Blue and White Bird Inside A Cage"
-        },
-        {
-         "src": "https://images.pexels.com/photos/3193175/pexels-photo-3193175.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-         "alt": "African Grey Parrot on Metal Rod"
-        }
-       ]
-    }
-  },
-  {
-    "id": 18,
-    "name": "Pizza",
-    "category": "food",
-    "price": "74",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "pizza"
+        "size": 6.94,
+        "description": "Shallow Focus Photo of Green Bird",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/6337786/pexels-photo-6337786.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+            "alt": "A Colorful Parrot in Close-up Photography"
+          },
+          {
+            "src": "https://images.pexels.com/photos/4062819/pexels-photo-4062819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Blue and White Bird Inside A Cage"
+          },
+          {
+            "src": "https://images.pexels.com/photos/3193175/pexels-photo-3193175.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+            "alt": "African Grey Parrot on Metal Rod"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3840,
-      "height": 5760
-     },
-      "size": 8.1,
-      "description": "Close-up of Pizza",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Baked Pizza on Pizza Peel in Oven"
+    {
+      "id": 18,
+      "name": "Pizza",
+      "category": "food",
+      "price": "74",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "pizza"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3840,
+          "height": 5760
         },
-        {
-         "src": "https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Sliced Pepperoni Pizza on White Ceramic Plate"
-        },
-        {
-         "src": "https://images.pexels.com/photos/365459/pexels-photo-365459.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Seafood Pizza Melting Cheese"
-        }
-       ]
-    }
-  },
-  {
-    "id": 19,
-    "name": "Greece",
-    "category": "landmarks",
-    "price": "156",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "greece"
+        "size": 8.1,
+        "description": "Close-up of Pizza",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Baked Pizza on Pizza Peel in Oven"
+          },
+          {
+            "src": "https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Sliced Pepperoni Pizza on White Ceramic Plate"
+          },
+          {
+            "src": "https://images.pexels.com/photos/365459/pexels-photo-365459.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Seafood Pizza Melting Cheese"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 5056,
-      "height": 3371
-     },
-      "size": 10.74,
-      "description": "White Concrete House Near Body of Water Under White and Blue Cloudy Sky",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/4817608/pexels-photo-4817608.png?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Stone Walkway Under the Bougainvillea Flower Plant"
+    {
+      "id": 19,
+      "name": "Greece",
+      "category": "landmarks",
+      "price": "156",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "greece"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 5056,
+          "height": 3371
         },
-        {
-         "src": "https://images.pexels.com/photos/164336/pexels-photo-164336.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Low Angle Photograph of the Parthenon during Daytime"
-        },
-        {
-         "src": "https://images.pexels.com/photos/161815/santorini-oia-greece-water-161815.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Landscape View of Greece during Day Time"
-        }
-       ]
-    }
-  },
-  {
-    "id": 20,
-    "name": "New York",
-    "category": "cities",
-    "price": "412",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/2224861/pexels-photo-2224861.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "newyork"
+        "size": 10.74,
+        "description": "White Concrete House Near Body of Water Under White and Blue Cloudy Sky",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/4817608/pexels-photo-4817608.png?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Stone Walkway Under the Bougainvillea Flower Plant"
+          },
+          {
+            "src": "https://images.pexels.com/photos/164336/pexels-photo-164336.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Low Angle Photograph of the Parthenon during Daytime"
+          },
+          {
+            "src": "https://images.pexels.com/photos/161815/santorini-oia-greece-water-161815.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Landscape View of Greece during Day Time"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3425,
-      "height": 5184
-     },
-      "size": 31.2,
-      "description": "Buildings in New York City",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/2129796/pexels-photo-2129796.png?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Building Photography"
+    {
+      "id": 20,
+      "name": "New York",
+      "category": "cities",
+      "price": "412",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2224861/pexels-photo-2224861.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "newyork"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3425,
+          "height": 5184
         },
-        {
-         "src": "https://images.pexels.com/photos/290386/pexels-photo-290386.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Statue of Liberty"
-        },
-        {
-         "src": "https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "High Angle View of Cityscape Against Cloudy Sky"
-        }
-       ]
-    }
-  },
-  {
-    "id": 21,
-    "name": "Rainbow",
-    "category": "nature",
-    "price": "2.8",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/757239/pexels-photo-757239.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "rainbow"
+        "size": 31.2,
+        "description": "Buildings in New York City",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/2129796/pexels-photo-2129796.png?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Building Photography"
+          },
+          {
+            "src": "https://images.pexels.com/photos/290386/pexels-photo-290386.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Statue of Liberty"
+          },
+          {
+            "src": "https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "High Angle View of Cityscape Against Cloudy Sky"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 2213,
-      "height": 2136
-     },
-      "size": 0.62,
-      "description": "Photography of Rainbow During Cloudy Sky",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/830829/pexels-photo-830829.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "rainbow2"
+    {
+      "id": 21,
+      "name": "Rainbow",
+      "category": "nature",
+      "price": "2.8",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/757239/pexels-photo-757239.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "rainbow"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 2213,
+          "height": 2136
         },
-        {
-         "src": "https://images.pexels.com/photos/1542495/pexels-photo-1542495.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Crop Field Under Rainbow and Cloudy Skies at Dayime"
-        },
-        {
-         "src": "https://images.pexels.com/photos/237250/pexels-photo-237250.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Rainbow After Sunset"
-        }
-       ]
-    }
-  },
-  {
-    "id": 22,
-    "name": "Children",
-    "category": "people",
-    "price": "88",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/296301/pexels-photo-296301.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "children"
+        "size": 0.62,
+        "description": "Photography of Rainbow During Cloudy Sky",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/830829/pexels-photo-830829.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "rainbow2"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1542495/pexels-photo-1542495.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Crop Field Under Rainbow and Cloudy Skies at Dayime"
+          },
+          {
+            "src": "https://images.pexels.com/photos/237250/pexels-photo-237250.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Rainbow After Sunset"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 6144,
-      "height": 4069
-     },
-      "size": 14.24,
-      "description": "Children's Team Building on Green Grassland",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "A KId With Multicolored Hand Paint"
+    {
+      "id": 22,
+      "name": "Children",
+      "category": "people",
+      "price": "88",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/296301/pexels-photo-296301.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "children"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 6144,
+          "height": 4069
         },
-        {
-         "src": "https://images.pexels.com/photos/1416736/pexels-photo-1416736.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Boy Running during Sunset"
-        },
-        {
-         "src": "https://images.pexels.com/photos/1449934/pexels-photo-1449934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Person Making Clay Figures"
-        }
-       ]
-    }
-  },
-  {
-    "id": 23,
-    "name": "Ferrari",
-    "category": "premium",
-    "price": "131",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "ferrari"
+        "size": 14.24,
+        "description": "Children's Team Building on Green Grassland",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "A KId With Multicolored Hand Paint"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1416736/pexels-photo-1416736.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Boy Running during Sunset"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1449934/pexels-photo-1449934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Person Making Clay Figures"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3264,
-      "height": 2448
-     },
-      "size": 2.15,
-      "description": "Red Ferrari",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/10489450/pexels-photo-10489450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "A Red Sports Car on the Road"
+    {
+      "id": 23,
+      "name": "Ferrari",
+      "category": "premium",
+      "price": "131",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "ferrari"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3264,
+          "height": 2448
         },
-        {
-         "src": "https://images.pexels.com/photos/2568539/pexels-photo-2568539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Red Ferrari Car"
-        },
-        {
-         "src": "https://images.pexels.com/photos/746164/pexels-photo-746164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Yellow Ferrari Car"
-        }
-       ]
-    }
-  },
-  {
-    "id": 24,
-    "name": "",
-    "category": "pets",
-    "price": "298",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/3362697/pexels-photo-3362697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "hamster"
+        "size": 2.15,
+        "description": "Red Ferrari",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/10489450/pexels-photo-10489450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "A Red Sports Car on the Road"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2568539/pexels-photo-2568539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Red Ferrari Car"
+          },
+          {
+            "src": "https://images.pexels.com/photos/746164/pexels-photo-746164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Yellow Ferrari Car"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 5852,
-      "height": 3992
-     },
-      "size": 12.3,
-      "description": "Macro Photography of Mouse near Brown Wooden Cage",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/325490/pexels-photo-325490.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Close Up of Woman Holding a Hamster"
+    {
+      "id": 24,
+      "name": "",
+      "category": "pets",
+      "price": "298",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/3362697/pexels-photo-3362697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "hamster"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 5852,
+          "height": 3992
         },
-        {
-         "src": "https://images.pexels.com/photos/3586056/pexels-photo-3586056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Close Up Photography of Hamster"
-        },
-        {
-         "src": "https://images.pexels.com/photos/4520481/pexels-photo-4520481.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Macro Photo of Cute Hamster"
-        }
-       ]
-    }
-  },
-  {
-    "id": 25,
-    "name": "Meat",
-    "category": "food",
-    "price": "4.9",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "meat"
+        "size": 12.3,
+        "description": "Macro Photography of Mouse near Brown Wooden Cage",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/325490/pexels-photo-325490.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Close Up of Woman Holding a Hamster"
+          },
+          {
+            "src": "https://images.pexels.com/photos/3586056/pexels-photo-3586056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Close Up Photography of Hamster"
+          },
+          {
+            "src": "https://images.pexels.com/photos/4520481/pexels-photo-4520481.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Macro Photo of Cute Hamster"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 4891,
-      "height": 2887
-     },
-      "size": 0.98,
-      "description": "Grilled Meats on Skewers",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/5602502/pexels-photo-5602502.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "doner"
+    {
+      "id": 25,
+      "name": "Meat",
+      "category": "food",
+      "price": "4.9",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "meat"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 4891,
+          "height": 2887
         },
-        {
-         "src": "https://images.pexels.com/photos/7245469/pexels-photo-7245469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Delicious kebab on buffet table"
-        },
-        {
-         "src": "https://images.pexels.com/photos/5175623/pexels-photo-5175623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Grilled Meat on Chopping Board"
-        }
-       ]
-    }
-  },
-  {
-    "id": 26,
-    "name": "New Zealand",
-    "category": "landmarks",
-    "price": "72",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/3680319/pexels-photo-3680319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "new zealand"
+        "size": 0.98,
+        "description": "Grilled Meats on Skewers",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/5602502/pexels-photo-5602502.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "doner"
+          },
+          {
+            "src": "https://images.pexels.com/photos/7245469/pexels-photo-7245469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Delicious kebab on buffet table"
+          },
+          {
+            "src": "https://images.pexels.com/photos/5175623/pexels-photo-5175623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Grilled Meat on Chopping Board"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 5504,
-      "height": 8256
-     },
-      "size": 5.79,
-      "description": "Galaxy Photo During Night time",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/3396673/pexels-photo-3396673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Straight Asphalt Road Between Trees"
+    {
+      "id": 26,
+      "name": "New Zealand",
+      "category": "landmarks",
+      "price": "72",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/3680319/pexels-photo-3680319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "new zealand"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 5504,
+          "height": 8256
         },
-        {
-         "src": "https://images.pexels.com/photos/1903694/pexels-photo-1903694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Calm Body Of Water"
-        },
-        {
-         "src": "https://images.pexels.com/photos/2586066/pexels-photo-2586066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Monochrome Photography of Mountains"
-        }
-       ]
-    }
-  },
-  {
-    "id": 27,
-    "name": "Berlin",
-    "category": "cities",
-    "price": "147",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/109630/pexels-photo-109630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "berlin"
+        "size": 5.79,
+        "description": "Galaxy Photo During Night time",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/3396673/pexels-photo-3396673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Straight Asphalt Road Between Trees"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1903694/pexels-photo-1903694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Calm Body Of Water"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2586066/pexels-photo-2586066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Monochrome Photography of Mountains"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 6000,
-      "height": 2576
-     },
-      "size": 0.96,
-      "description": "TV Tower in Berlin",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/2570063/pexels-photo-2570063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Concrete Structure"
+    {
+      "id": 27,
+      "name": "Berlin",
+      "category": "cities",
+      "price": "147",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/109630/pexels-photo-109630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "berlin"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 6000,
+          "height": 2576
         },
-        {
-         "src": "https://images.pexels.com/photos/234315/pexels-photo-234315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Man Wearing Black Waistcoat and White Tank Tops Standing Near a Mural"
-        },
-        {
-         "src": "https://images.pexels.com/photos/1128416/pexels-photo-1128416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Flag Near Building"
-        }
-       ]
-    }
-  },
-  {
-    "id": 28,
-    "name": "Lightning",
-    "category": "nature",
-    "price": "209",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/1118869/pexels-photo-1118869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "lightning"
+        "size": 0.96,
+        "description": "TV Tower in Berlin",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/2570063/pexels-photo-2570063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Concrete Structure"
+          },
+          {
+            "src": "https://images.pexels.com/photos/234315/pexels-photo-234315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Man Wearing Black Waistcoat and White Tank Tops Standing Near a Mural"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1128416/pexels-photo-1128416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Flag Near Building"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 2640,
-      "height": 1760
-     },
-      "size": 0.77,
-      "description": "Lightning During Nighttime",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Photo of Lightning"
+    {
+      "id": 28,
+      "name": "Lightning",
+      "category": "nature",
+      "price": "209",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1118869/pexels-photo-1118869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "lightning"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 2640,
+          "height": 1760
         },
-        {
-         "src": "https://images.pexels.com/photos/1114688/pexels-photo-1114688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Lightning Strike on City"
-        },
-        {
-         "src": "https://images.pexels.com/photos/2806523/pexels-photo-2806523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Silhouette of Mountains"
-        }
-       ]
-    }
-  },
-  {
-    "id": 29,
-    "name": "Baby",
-    "category": "people",
-    "price": "8.3",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/1973270/pexels-photo-1973270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "baby"
+        "size": 0.77,
+        "description": "Lightning During Nighttime",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Photo of Lightning"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1114688/pexels-photo-1114688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Lightning Strike on City"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2806523/pexels-photo-2806523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Silhouette of Mountains"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 4896,
-      "height": 3264
-     },
-      "size": 2.88,
-      "description": "Baby Lying On White Fur With Brown Blanket",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Baby Holding White Wooden Stool"
+    {
+      "id": 29,
+      "name": "Baby",
+      "category": "people",
+      "price": "8.3",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1973270/pexels-photo-1973270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "baby"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 4896,
+          "height": 3264
         },
-        {
-         "src": "https://images.pexels.com/photos/161709/newborn-baby-feet-basket-161709.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Baby Sleeping on White Cotton"
-        },
-        {
-         "src": "https://images.pexels.com/photos/265987/pexels-photo-265987.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "Toddler Wearing Head Scarf in Bed"
-        }
-       ]
-    }
-  },
-  {
-    "id": 30,
-    "name": "Lamborgini",
-    "category": "premium",
-    "price": "45",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "lamborgini"
+        "size": 2.88,
+        "description": "Baby Lying On White Fur With Brown Blanket",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Baby Holding White Wooden Stool"
+          },
+          {
+            "src": "https://images.pexels.com/photos/161709/newborn-baby-feet-basket-161709.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Baby Sleeping on White Cotton"
+          },
+          {
+            "src": "https://images.pexels.com/photos/265987/pexels-photo-265987.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Toddler Wearing Head Scarf in Bed"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3527,
-      "height": 1984
-     },
-      "size": 5.74,
-      "description": "Photo of Parked Lime Green Lamborghini",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/6462662/pexels-photo-6462662.png?auto=compress&cs=tinysrgb&w=600",
-         "alt": "White Lamborghini Parked on the Road"
+    {
+      "id": 30,
+      "name": "Lamborgini",
+      "category": "premium",
+      "price": "45",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "lamborgini"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3527,
+          "height": 1984
         },
-        {
-         "src": "https://images.pexels.com/photos/2896135/pexels-photo-2896135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Parked Lamborghini Sports Coupe"
-        },
-        {
-         "src": "https://images.pexels.com/photos/3422964/pexels-photo-3422964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Photo of Car on Expressway"
-        }
-       ]
-    }
-  }
-  {
-    "id": 31,
-    "name": "Fish",
-    "category": "pets",
-    "price": "174",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/8434731/pexels-photo-8434731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "fish"
+        "size": 5.74,
+        "description": "Photo of Parked Lime Green Lamborghini",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/6462662/pexels-photo-6462662.png?auto=compress&cs=tinysrgb&w=600",
+            "alt": "White Lamborghini Parked on the Road"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2896135/pexels-photo-2896135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Parked Lamborghini Sports Coupe"
+          },
+          {
+            "src": "https://images.pexels.com/photos/3422964/pexels-photo-3422964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Photo of Car on Expressway"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 4000,
-      "height": 6000
-     },
-      "size": 4.01,
-      "description": "An Orange Fish in a Fish Bowl",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/5150078/pexels-photo-5150078.jpeg?auto=compress&cs=tinysrgb&w=600",
-         "alt": "A Blue Mustard Betta Fish in an Aquarium"
+    {
+      "id": 31,
+      "name": "Fish",
+      "category": "pets",
+      "price": "174",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/8434731/pexels-photo-8434731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "fish"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 4000,
+          "height": 6000
         },
-        {
-         "src": "https://images.pexels.com/photos/4365563/pexels-photo-4365563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Goldfish Inside the Aquarium"
-        },
-        {
-         "src": "https://images.pexels.com/photos/4987266/pexels-photo-4987266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "A Fish Inside an Aquarium"
-        }
-       ]
-    }
-  }
-  {
-    "id": 32,
-    "name": "Sushi",
-    "category": "food",
-    "price": "261",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "sushi"
+        "size": 4.01,
+        "description": "An Orange Fish in a Fish Bowl",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/5150078/pexels-photo-5150078.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "A Blue Mustard Betta Fish in an Aquarium"
+          },
+          {
+            "src": "https://images.pexels.com/photos/4365563/pexels-photo-4365563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Goldfish Inside the Aquarium"
+          },
+          {
+            "src": "https://images.pexels.com/photos/4987266/pexels-photo-4987266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "A Fish Inside an Aquarium"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 5344,
-      "height": 4008
-     },
-      "size": 10.71,
-      "description": "Sushi On Brown Wooden Board",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "California Maki on Dish"
+    {
+      "id": 32,
+      "name": "Sushi",
+      "category": "food",
+      "price": "261",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "sushi"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 5344,
+          "height": 4008
         },
-        {
-         "src": "https://images.pexels.com/photos/2323398/pexels-photo-2323398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Japanese Sushi and Sashimi on Wooden Tray"
-        },
-        {
-         "src": "https://images.pexels.com/photos/684965/pexels-photo-684965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Sushi Rolls"
-        }
-       ]
-    }
-  }
-  {
-    "id": 33,
-    "name": "Sweden",
-    "category": "landmarks",
-    "price": "9.5",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/1198507/pexels-photo-1198507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "sweden"
+        "size": 10.71,
+        "description": "Sushi On Brown Wooden Board",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "California Maki on Dish"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2323398/pexels-photo-2323398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Japanese Sushi and Sashimi on Wooden Tray"
+          },
+          {
+            "src": "https://images.pexels.com/photos/684965/pexels-photo-684965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Sushi Rolls"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3008,
-      "height": 2000
-     },
-      "size": 1.64,
-      "description": "Green Grass Field Near Houses",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/421759/pexels-photo-421759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Green Leafed Trees"
+    {
+      "id": 33,
+      "name": "Sweden",
+      "category": "landmarks",
+      "price": "9.5",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1198507/pexels-photo-1198507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "sweden"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3008,
+          "height": 2000
         },
-        {
-         "src": "https://images.pexels.com/photos/208755/pexels-photo-208755.jpeg",
-         "alt": "Grey and Blue Palace Under Blue Sky during Day Time"
-        },
-        {
-         "src": "https://images.pexels.com/photos/2377432/pexels-photo-2377432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Brown and Gray 3-tier Building Surrounded by Trees"
-        }
-       ]
-    }
-  }
-  {
-    "id": 34,
-    "name": "Brussels",
-    "category": "cities",
-    "price": "36",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/2960887/pexels-photo-2960887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "brussels"
+        "size": 1.64,
+        "description": "Green Grass Field Near Houses",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/421759/pexels-photo-421759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Green Leafed Trees"
+          },
+          {
+            "src": "https://images.pexels.com/photos/208755/pexels-photo-208755.jpeg",
+            "alt": "Grey and Blue Palace Under Blue Sky during Day Time"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2377432/pexels-photo-2377432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Brown and Gray 3-tier Building Surrounded by Trees"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 7058,
-      "height": 4912
-     },
-      "size": 18.91,
-      "description": "Photo of Parc du Cinquantenaire",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/2587789/pexels-photo-2587789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Landscape Photography of High Rise Building"
+    {
+      "id": 34,
+      "name": "Brussels",
+      "category": "cities",
+      "price": "36",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2960887/pexels-photo-2960887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "brussels"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 7058,
+          "height": 4912
         },
-        {
-         "src": "https://images.pexels.com/photos/2326128/pexels-photo-2326128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Brown and White Building"
-        },
-        {
-         "src": "https://images.pexels.com/photos/3858168/pexels-photo-3858168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Royal Palace of Brussels under a White Sky"
-        }
-       ]
-    }
-  }
-  {
-    "id": 35,
-    "name": "Mountain",
-    "category": "nature",
-    "price": "137",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "mountain"
+        "size": 18.91,
+        "description": "Photo of Parc du Cinquantenaire",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/2587789/pexels-photo-2587789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Landscape Photography of High Rise Building"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2326128/pexels-photo-2326128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Brown and White Building"
+          },
+          {
+            "src": "https://images.pexels.com/photos/3858168/pexels-photo-3858168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Royal Palace of Brussels under a White Sky"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 5472,
-      "height": 3648
-     },
-      "size": 13.43,
-      "description": "Landscape Photography of Mountains Covered in Snow",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Gray and Brown Mountain"
+    {
+      "id": 35,
+      "name": "Mountain",
+      "category": "nature",
+      "price": "137",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "mountain"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 5472,
+          "height": 3648
         },
-        {
-         "src": "https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Snow-top Mountain Under Clear Sky"
-        },
-        {
-         "src": "https://images.pexels.com/photos/1743165/pexels-photo-1743165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Cropland duiring Night Time"
-        }
-       ]
-    }
-  }
-  {
-    "id": 36,
-    "name": "Women",
-    "category": "people",
-    "price": "209",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/1206059/pexels-photo-1206059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "women"
+        "size": 13.43,
+        "description": "Landscape Photography of Mountains Covered in Snow",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Gray and Brown Mountain"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Snow-top Mountain Under Clear Sky"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1743165/pexels-photo-1743165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Cropland duiring Night Time"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 7457,
-      "height": 4974
-     },
-      "size": 20.4,
-      "description": "Woman Falling In Line Holding Each Other",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/942419/pexels-photo-942419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Selective Focus Photography of Two Women's White and Black Tops"
+    {
+      "id": 36,
+      "name": "Women",
+      "category": "people",
+      "price": "209",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1206059/pexels-photo-1206059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "women"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 7457,
+          "height": 4974
         },
-        {
-         "src": "https://images.pexels.com/photos/53364/girls-women-happy-sexy-53364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Silhouette of 4 Women With the Background of Birds Flying Under Yellow and Grey Sky"
-        },
-        {
-         "src": "https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Four Women Chatting While Sitting on Bench"
-        }
-       ]
-    }
-  }
-  {
-    "id": 37,
-    "name": "Sky tower",
-    "category": "premium",
-    "price": "13.5",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/5058213/pexels-photo-5058213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "sky tower"
+        "size": 20.4,
+        "description": "Woman Falling In Line Holding Each Other",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/942419/pexels-photo-942419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Selective Focus Photography of Two Women's White and Black Tops"
+          },
+          {
+            "src": "https://images.pexels.com/photos/53364/girls-women-happy-sexy-53364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Silhouette of 4 Women With the Background of Birds Flying Under Yellow and Grey Sky"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Four Women Chatting While Sitting on Bench"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3405,
-      "height": 5107
-     },
-      "size": 10.08,
-      "description": "Cars on Bridge Near Skyscrapers Under White Clouds",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/3751315/pexels-photo-3751315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Low Angle Photography of High Rise Building Under Blue Sky"
+    {
+      "id": 37,
+      "name": "Sky tower",
+      "category": "premium",
+      "price": "13.5",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/5058213/pexels-photo-5058213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "sky tower"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3405,
+          "height": 5107
         },
-        {
-         "src": "https://images.pexels.com/photos/1722183/pexels-photo-1722183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Sears Tower, Usa"
-        },
-        {
-         "src": "https://images.pexels.com/photos/421927/pexels-photo-421927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Body of Water Near City Buildings"
-        }
-       ]
-    }
-  }
-  {
-    "id": 38,
-    "name": "Turtle",
-    "category": "pets",
-    "price": "59",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/5264006/pexels-photo-5264006.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "alt": "turtle"
+        "size": 10.08,
+        "description": "Cars on Bridge Near Skyscrapers Under White Clouds",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/3751315/pexels-photo-3751315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Low Angle Photography of High Rise Building Under Blue Sky"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1722183/pexels-photo-1722183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Sears Tower, Usa"
+          },
+          {
+            "src": "https://images.pexels.com/photos/421927/pexels-photo-421927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Body of Water Near City Buildings"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 6720,
-      "height": 4480
-     },
-      "size": 23.43,
-      "description": "Close-up of a Red-eared Slider Turtle",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/5264018/pexels-photo-5264018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Turtle next to Watercolor Paints"
+    {
+      "id": 38,
+      "name": "Turtle",
+      "category": "pets",
+      "price": "59",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/5264006/pexels-photo-5264006.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "turtle"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 6720,
+          "height": 4480
         },
-        {
-         "src": "https://images.pexels.com/photos/5264017/pexels-photo-5264017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Small Child Playing with Turtle"
-        },
-        {
-         "src": "https://images.pexels.com/photos/7855424/pexels-photo-7855424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Close-Up Shot of a Person Holding a Turtle"
-        }
-       ]
-    }
-  }
-  {
-    "id": 39,
-    "name": "Noodle",
-    "category": "food",
-    "price": "166",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "noodle"
+        "size": 23.43,
+        "description": "Close-up of a Red-eared Slider Turtle",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/5264018/pexels-photo-5264018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Turtle next to Watercolor Paints"
+          },
+          {
+            "src": "https://images.pexels.com/photos/5264017/pexels-photo-5264017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Small Child Playing with Turtle"
+          },
+          {
+            "src": "https://images.pexels.com/photos/7855424/pexels-photo-7855424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Close-Up Shot of a Person Holding a Turtle"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 7615,
-      "height": 5079
-     },
-      "size": 25.13,
-      "description": "Stir Fry Noodles in Bowl",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/2664216/pexels-photo-2664216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Noodles With Meat And Mint On Top"
+    {
+      "id": 39,
+      "name": "Noodle",
+      "category": "food",
+      "price": "166",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "noodle"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 7615,
+          "height": 5079
         },
-        {
-         "src": "https://images.pexels.com/photos/2098135/pexels-photo-2098135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Pasta On Black Plate"
-        },
-        {
-         "src": "https://images.pexels.com/photos/2425705/pexels-photo-2425705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Person Picking Cooked Noodles with Chopsticks"
-        }
-       ]
-    }
-  }
-  {
-    "id": 40,
-    "name": "Ibiza",
-    "category": "landmarks",
-    "price": "222",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/2191136/pexels-photo-2191136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "ibiza"
+        "size": 25.13,
+        "description": "Stir Fry Noodles in Bowl",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/2664216/pexels-photo-2664216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Noodles With Meat And Mint On Top"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2098135/pexels-photo-2098135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Pasta On Black Plate"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2425705/pexels-photo-2425705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Person Picking Cooked Noodles with Chopsticks"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3447,
-      "height": 5168
-     },
-      "size": 4.8,
-      "description": "Boats In The Ocean",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/2990971/pexels-photo-2990971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Airplane in Mid Air Above Trees during Day"
+    {
+      "id": 40,
+      "name": "Ibiza",
+      "category": "landmarks",
+      "price": "222",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2191136/pexels-photo-2191136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "ibiza"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 3447,
+          "height": 5168
         },
-        {
-         "src": "https://images.pexels.com/photos/2490944/pexels-photo-2490944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Sea Under Gray Sky"
-        },
-        {
-         "src": "https://images.pexels.com/photos/10211874/pexels-photo-10211874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "ibiza2"
-        }
-       ]
-    }
-  }
-  {
-    "id": 41,
-    "name": "Honolulu",
-    "category": "cities",
-    "price": "4.6",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/4319752/pexels-photo-4319752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "honolulu"
+        "size": 4.8,
+        "description": "Boats In The Ocean",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/2990971/pexels-photo-2990971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Airplane in Mid Air Above Trees during Day"
+          },
+          {
+            "src": "https://images.pexels.com/photos/2490944/pexels-photo-2490944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Sea Under Gray Sky"
+          },
+          {
+            "src": "https://images.pexels.com/photos/10211874/pexels-photo-10211874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "ibiza2"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 9600,
-      "height": 12000
-     },
-      "size": 27.14,
-      "description": "People Surfing on Sea Waves",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/3075391/pexels-photo-3075391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Bird's Eye View Of Valley"
+    {
+      "id": 41,
+      "name": "Honolulu",
+      "category": "cities",
+      "price": "4.6",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/4319752/pexels-photo-4319752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "honolulu"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": {
+        "dimmentions": {
+          "width": 9600,
+          "height": 12000
         },
-        {
-         "src": "https://images.pexels.com/photos/4319749/pexels-photo-4319749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "People on Beach during Sunset"
-        },
-        {
-         "src": "https://images.pexels.com/photos/4602240/pexels-photo-4602240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "People on Beach"
-        }
-       ]
-    }
-  }
-  {
-    "id": 42,
-    "name": "Earth",
-    "category": "nature",
-    "price": "77",
-    "currency": "USD",
-    "image": {
-      "src": "https://images.pexels.com/photos/4220967/pexels-photo-4220967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "alt": "earth"
+        "size": 27.14,
+        "description": "People Surfing on Sea Waves",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/3075391/pexels-photo-3075391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Bird's Eye View Of Valley"
+          },
+          {
+            "src": "https://images.pexels.com/photos/4319749/pexels-photo-4319749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "People on Beach during Sunset"
+          },
+          {
+            "src": "https://images.pexels.com/photos/4602240/pexels-photo-4602240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "People on Beach"
+          }
+        ]
+      }
     },
-    "bestseller": false,
-    "featured": true,
-    "details": {
-     "dimmentions": {
-      "width": 3858,
-      "height": 5787
-     },
-      "size": 9.05,
-      "description": "Volcano Erupting at Night Under Starry Sky",
-      "recommendations": [
-        {
-         "src": "https://images.pexels.com/photos/3284167/pexels-photo-3284167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "People Walking at the Desert during Day"
+    {
+      "id": 42,
+      "name": "Earth",
+      "category": "nature",
+      "price": "77",
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/4220967/pexels-photo-4220967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "earth"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimmentions": {
+          "width": 3858,
+          "height": 5787
         },
-        {
-         "src": "https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "White Clouds"
-        },
-        {
-         "src": "https://images.pexels.com/photos/1693095/pexels-photo-1693095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         "alt": "Aurora Lights"
-        }
-       ]
+        "size": 9.05,
+        "description": "Volcano Erupting at Night Under Starry Sky",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/3284167/pexels-photo-3284167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "People Walking at the Desert during Day"
+          },
+          {
+            "src": "https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "White Clouds"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1693095/pexels-photo-1693095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Aurora Lights"
+          }
+        ]
+      }
     }
-  }
-]
+  ]
 }
