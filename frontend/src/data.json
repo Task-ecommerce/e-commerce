@@ -1201,7 +1201,7 @@
         "alt": "mountain"
       },
       "bestseller": false,
-      "featured": false,
+      "featured": true,
       "details": {
         "dimmentions": {
           "width": 5472,
@@ -1446,7 +1446,7 @@
         "alt": "earth"
       },
       "bestseller": false,
-      "featured": true,
+      "featured": false,
       "details": {
         "dimmentions": {
           "width": 3858,
