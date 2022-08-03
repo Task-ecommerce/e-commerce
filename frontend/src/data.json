@@ -571,7 +571,7 @@
         "alt": "bird"
       },
       "bestseller": false,
-      "featured": false,
+      "featured": true,
       "details": {
         "dimmentions": {
           "width": 4269,
@@ -1228,7 +1228,7 @@
     {
       "id": 36,
       "name": "Women",
-      "category": "people",
+      "cate gory": "people",
       "price": "209",
       "currency": "USD",
       "image": {
@@ -1348,7 +1348,7 @@
           "height": 5079
         },
         "size": 25.13,
-        "description": "Stir Fry Noodles in Bowl",
+        "description": "Stir Fry Noodles in Bowl with Salt and Pepper.",
         "recommendations": [
           {
             "src": "https://images.pexels.com/photos/2664216/pexels-photo-2664216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
