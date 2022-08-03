@@ -14,10 +14,6 @@ const Wrapper = styled.nav`
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
-  @media (max-width: 768px) {
-    justify-content: center;
-  }
 `;
 
 const Title = styled.h1`
