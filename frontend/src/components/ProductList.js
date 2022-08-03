@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import data from "../data.json";
 import Product from "./Product";
 import styled from "styled-components";
+import { TbArrowsUpDown } from "react-icons/tb";
 
 const MidContainer = styled.div`
   display: grid;
@@ -43,6 +44,17 @@ const HeaderDiv = styled.div`
   align-items: center;
 `;
 
+const Sort = styled.select`
+  border: none;
+  outline: none;
+`;
+const SortButton = styled.button`
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #9b9b9b;
+`;
+
 const ProductList = () => {
   const [productList, setProductList] = useState(data.products);
   const category = [];
@@ -62,11 +74,17 @@ const ProductList = () => {
       <HeaderDiv>
         <h3>Photography/ Premium Photos</h3>
         <div>
-          <button>Sort By</button>
-          <select>
+          <SortButton>
+            {" "}
+            <span>
+              <TbArrowsUpDown />
+            </span>{" "}
+            Sort By
+          </SortButton>
+          <Sort>
             <option value="price">Price</option>
             <option value="name">Name</option>
-          </select>
+          </Sort>
         </div>
       </HeaderDiv>
       <MidContainer>
