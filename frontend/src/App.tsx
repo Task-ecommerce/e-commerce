@@ -6,7 +6,7 @@ import ProductList from './components/ProductList';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar title="Bejamas" />
       <FeaturedProduct />
       <ProductList />
     </div>

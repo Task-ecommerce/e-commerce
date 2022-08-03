@@ -32,10 +32,14 @@ const Store = styled.div`
   justify-content: center;
 `;
 
-export default function Navbar() {
+type Props = {
+  title: string;
+};
+
+export default function Navbar(props: Props) {
   return (
     <Wrapper>
-      <Title>Bejamas</Title>
+      <Title>{props.title}</Title>
       <Store>
         <MdOutlineLocalGroceryStore size={30} />
       </Store>
