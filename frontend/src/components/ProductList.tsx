@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import data from "../data.json";
-import Product from "./Product";
-import styled from "styled-components";
+import React, { useState } from 'react';
+import data from '../data.json';
+import Product from './Product';
+import styled from 'styled-components';
 
 const MidContainer = styled.div`
   display: grid;
@@ -45,7 +45,7 @@ const HeaderDiv = styled.div`
 
 const ProductList = () => {
   const [productList, setProductList] = useState(data.products);
-  const category = [];
+  const category: (string | undefined)[] = [];
 
   productList.map((item) => {
     !category.includes(item.category) && category.push(item.category);

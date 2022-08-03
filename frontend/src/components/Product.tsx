@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const ImgCard = styled.div`
   margin: 1rem;
@@ -53,15 +53,28 @@ const Name = styled.h3`
   margin: 0.1rem 0 0 0;
 `;
 
-const Product = ({ product }) => {
-  const { name, image, category, price, bestseller } = product;
+type ProductProps = {
+  product: {
+    id: number;
+    name: string;
+    price: number;
+    category: string;
+    image: {
+      src: string;
+    };
+    bestseller: boolean;
+  };
+};
+
+const Product = (props: ProductProps) => {
+  const { name, image, category, price, bestseller } = props.product;
 
   return (
     <ImgCard>
       <ImgDiv>
         <img src={image.src} alt="" />
         <Button>ADD TO CART</Button>
-        <Bestseller>{bestseller && "Bestseller"}</Bestseller>
+        <Bestseller>{bestseller && 'Bestseller'}</Bestseller>
       </ImgDiv>
       <Category>{category}</Category>
       <Name>{name}</Name>
