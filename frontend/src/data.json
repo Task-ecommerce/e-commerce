@@ -1201,7 +1201,7 @@
         "alt": "mountain"
       },
       "bestseller": false,
-      "featured": false,
+      "featured": true,
       "details": {
         "dimmentions": {
           "width": 5472,
