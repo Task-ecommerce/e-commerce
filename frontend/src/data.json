@@ -3,7 +3,11 @@
     {
       "id": 1,
       "name": "Red Bench",
-      "category": "people",
+      "category": [
+        "Furniture",
+        "Chairs",
+        "premium"
+      ],
       "price": 3.89,
       "currency": "USD",
       "image": {
@@ -38,7 +42,10 @@
     {
       "id": 2,
       "name": "Balloon",
-      "category": "premium",
+      "category": [
+        "premium",
+        "nature"
+      ],
       "price": 93.89,
       "currency": "USD",
       "image": {
@@ -73,7 +80,10 @@
     {
       "id": 3,
       "name": "Cat",
-      "category": "pets",
+      "category": [
+        "pets",
+        "animals"
+      ],
       "price": 101,
       "currency": "USD",
       "image": {
@@ -108,7 +118,10 @@
     {
       "id": 4,
       "name": "Hamburger",
-      "category": "food",
+      "category": [
+        "food",
+        "meat"
+      ],
       "price": 201,
       "currency": "USD",
       "image": {
@@ -143,7 +156,11 @@
     {
       "id": 5,
       "name": "Amasya",
-      "category": "landmarks",
+      "category": [
+        "food",
+        "cities",
+        "landmarks"
+      ],
       "price": 11,
       "currency": "USD",
       "image": {
@@ -178,7 +195,10 @@
     {
       "id": 11,
       "name": "Fruit",
-      "category": "food",
+      "category": [
+        "food",
+        "fruit"
+      ],
       "price": 158,
       "currency": "USD",
       "image": {
@@ -213,7 +233,11 @@
     {
       "id": 12,
       "name": "Gaziantep",
-      "category": "landmarks",
+      "category": [
+        "food",
+        "landmarks",
+        "cities"
+      ],
       "price": 265,
       "currency": "USD",
       "image": {
@@ -248,7 +272,10 @@
     {
       "id": 13,
       "name": "Amsterdam",
-      "category": "cities",
+      "category": [
+        "landmarks",
+        "cities"
+      ],
       "price": 13,
       "currency": "USD",
       "image": {
@@ -283,7 +310,11 @@
     {
       "id": 14,
       "name": "Waterfall",
-      "category": "nature",
+      "category": [
+        "waterfall",
+        "water",
+        "nature"
+      ],
       "price": 49,
       "currency": "USD",
       "image": {
@@ -318,7 +349,10 @@
     {
       "id": 15,
       "name": "Girl",
-      "category": "people",
+      "category": [
+        "people",
+        "happy"
+      ],
       "price": 183,
       "currency": "USD",
       "image": {
@@ -353,7 +387,10 @@
     {
       "id": 16,
       "name": "Tesla",
-      "category": "premium",
+      "category": [
+        "premium",
+        "cars"
+      ],
       "price": 350,
       "currency": "USD",
       "image": {
@@ -388,7 +425,10 @@
     {
       "id": 17,
       "name": "Bird",
-      "category": "pets",
+      "category": [
+        "pets",
+        "animal"
+      ],
       "price": 5,
       "currency": "USD",
       "image": {
@@ -423,7 +463,10 @@
     {
       "id": 18,
       "name": "Pizza",
-      "category": "food",
+      "category": [
+        "food",
+        "pizza"
+      ],
       "price": 74,
       "currency": "USD",
       "image": {
@@ -458,7 +501,11 @@
     {
       "id": 19,
       "name": "Greece",
-      "category": "landmarks",
+      "category": [
+        "food",
+        "travel",
+        "cities"
+      ],
       "price": 156,
       "currency": "USD",
       "image": {
@@ -493,7 +540,9 @@
     {
       "id": 20,
       "name": "New York",
-      "category": "cities",
+      "category": [
+        "cities"
+      ],
       "price": 412,
       "currency": "USD",
       "image": {
@@ -528,7 +577,10 @@
     {
       "id": 21,
       "name": "Rainbow",
-      "category": "nature",
+      "category": [
+        "nature",
+        "landmarks"
+      ],
       "price": 2.8,
       "currency": "USD",
       "image": {
@@ -563,7 +615,11 @@
     {
       "id": 22,
       "name": "Children",
-      "category": "people",
+      "category": [
+        "children",
+        "family",
+        "people"
+      ],
       "price": 88,
       "currency": "USD",
       "image": {
@@ -598,7 +654,11 @@
     {
       "id": 23,
       "name": "Ferrari",
-      "category": "premium",
+      "category": [
+        "cars",
+        "sports",
+        "premium"
+      ],
       "price": 131,
       "currency": "USD",
       "image": {
@@ -633,7 +693,10 @@
     {
       "id": 24,
       "name": "Hamster",
-      "category": "pets",
+      "category": [
+        "animal",
+        "nature"
+      ],
       "price": 298,
       "currency": "USD",
       "image": {
@@ -668,7 +731,10 @@
     {
       "id": 25,
       "name": "Meat",
-      "category": "food",
+      "category": [
+        "food",
+        "meat"
+      ],
       "price": 4.9,
       "currency": "USD",
       "image": {
@@ -703,7 +769,12 @@
     {
       "id": 26,
       "name": "New Zealand",
-      "category": "landmarks",
+      "category": [
+        "travel",
+        "asia",
+        "cities",
+        "landmarks"
+      ],
       "price": 72,
       "currency": "USD",
       "image": {
@@ -738,7 +809,10 @@
     {
       "id": 27,
       "name": "Berlin",
-      "category": "cities",
+      "category": [
+        "landmarks",
+        "cities"
+      ],
       "price": 147,
       "currency": "USD",
       "image": {
@@ -773,7 +847,10 @@
     {
       "id": 28,
       "name": "Lightning",
-      "category": "nature",
+      "category": [
+        "lights",
+        "nature"
+      ],
       "price": 209,
       "currency": "USD",
       "image": {
@@ -808,7 +885,11 @@
     {
       "id": 29,
       "name": "Baby",
-      "category": "people",
+      "category": [
+        "kids",
+        "family",
+        "people"
+      ],
       "price": 8.3,
       "currency": "USD",
       "image": {
@@ -843,7 +924,10 @@
     {
       "id": 30,
       "name": "Lamborgini",
-      "category": "premium",
+      "category": [
+        "premium",
+        "cities"
+      ],
       "price": 45,
       "currency": "USD",
       "image": {
@@ -878,7 +962,10 @@
     {
       "id": 31,
       "name": "Fish",
-      "category": "pets",
+      "category": [
+        "food",
+        "people"
+      ],
       "price": 174,
       "currency": "USD",
       "image": {
@@ -913,7 +1000,10 @@
     {
       "id": 32,
       "name": "Sushi",
-      "category": "food",
+      "category": [
+        "food",
+        "japanese"
+      ],
       "price": 261,
       "currency": "USD",
       "image": {
@@ -948,7 +1038,10 @@
     {
       "id": 33,
       "name": "Sweden",
-      "category": "landmarks",
+      "category": [
+        "cities",
+        "nature"
+      ],
       "price": 9.5,
       "currency": "USD",
       "image": {
@@ -983,7 +1076,10 @@
     {
       "id": 34,
       "name": "Brussels",
-      "category": "cities",
+      "category": [
+        "landmarks",
+        "cities"
+      ],
       "price": 36,
       "currency": "USD",
       "image": {
@@ -1018,7 +1114,10 @@
     {
       "id": 35,
       "name": "Mountain",
-      "category": "nature",
+      "category": [
+        "landmarks",
+        "nature"
+      ],
       "price": 137,
       "currency": "USD",
       "image": {
@@ -1053,7 +1152,9 @@
     {
       "id": 36,
       "name": "Women",
-      "category": "people",
+      "category": [
+        "people"
+      ],
       "price": 209,
       "currency": "USD",
       "image": {
@@ -1088,7 +1189,10 @@
     {
       "id": 37,
       "name": "Sky tower",
-      "category": "premium",
+      "category": [
+        "premium",
+        "cities"
+      ],
       "price": 13.5,
       "currency": "USD",
       "image": {
@@ -1123,7 +1227,10 @@
     {
       "id": 38,
       "name": "Turtle",
-      "category": "pets",
+      "category": [
+        "nature",
+        "people"
+      ],
       "price": 59,
       "currency": "USD",
       "image": {
@@ -1158,7 +1265,10 @@
     {
       "id": 39,
       "name": "Noodle",
-      "category": "food",
+      "category": [
+        "food",
+        "premium"
+      ],
       "price": 166,
       "currency": "USD",
       "image": {
@@ -1193,7 +1303,10 @@
     {
       "id": 40,
       "name": "Ibiza",
-      "category": "landmarks",
+      "category": [
+        "landmarks",
+        "premium"
+      ],
       "price": 222,
       "currency": "USD",
       "image": {
@@ -1228,7 +1341,10 @@
     {
       "id": 41,
       "name": "Honolulu",
-      "category": "cities",
+      "category": [
+        "landmarks",
+        "beaches"
+      ],
       "price": 4.6,
       "currency": "USD",
       "image": {
@@ -1263,7 +1379,10 @@
     {
       "id": 42,
       "name": "Earth",
-      "category": "nature",
+      "category": [
+        "landmarks",
+        "cities"
+      ],
       "price": 77,
       "currency": "USD",
       "image": {
