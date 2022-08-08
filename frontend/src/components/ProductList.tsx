@@ -1,17 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import data from '../data.json';
 import Product from './Product';
 import styled from 'styled-components';
+import useFilter from '../hooks/useFilter';
+import { categories, priceData } from './helpers/data';
 
 const MidContainer = styled.div`
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 1fr 3fr;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const ImgContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  grid-gap: 5rem;
 `;
 
 const MainContainer = styled.div`
@@ -42,21 +47,122 @@ const HeaderDiv = styled.div`
   justify-content: space-between;
   align-items: center;
 `;
+const PriceDiv = styled.div`
+  margin-top: 3rem;
+`;
+
+const Box = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+`;
 
 const ProductList = () => {
   const [productList, setProductList] = useState(data.products);
-  const category: (string | undefined)[] = [];
+  const [priceFilter, handlePriceFilter] = useFilter({});
+  const [categoryFilter, setCategoryFilter] = useState([] as string[]);
 
-  productList.map((item) => {
-    !category.includes(item.category) && category.push(item.category);
-  });
+  const handleCategory = (
+    e: React.ChangeEvent<HTMLInputElement>,
+    index: number
+  ) => {
+    if (e.target.checked) {
+      setCategoryFilter([...categoryFilter, categories[index]]);
+    } else {
+      setCategoryFilter(
+        categoryFilter.filter((item: any) => item !== categories[index])
+      );
+    }
+  };
 
-  const PriceDiv = styled.div`
-    margin-top: 3rem;
-  `;
+  const handlePrice = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, checked } = e.target;
+    handlePriceFilter({ name, checked });
+  };
 
-  console.log(productList);
+  useEffect(() => {
+    const keys = Object.keys(priceFilter);
+    console.log(keys);
+    if (!categoryFilter.length && !keys.length) {
+      setProductList(data.products);
+    }
+    if (categoryFilter.length && keys.length) {
+      const filteredProducts = data.products.filter((product) => {
+        return categoryFilter.some((value) => product.category.includes(value));
+      });
 
+      setProductList(filteredProducts);
+      keys.forEach((key) => {
+        switch (key) {
+          case 'Lower than $20':
+            setProductList((prev) =>
+              prev.filter((product) => product.price < 20)
+            );
+            break;
+          case '$20 - $100':
+            setProductList((prev) =>
+              prev.filter(
+                (product) => product.price >= 20 && product.price <= 100
+              )
+            );
+            break;
+          case '$100 - $200':
+            setProductList((prev) =>
+              prev.filter(
+                (product) => product.price >= 100 && product.price <= 200
+              )
+            );
+            break;
+          case 'More than $200':
+            setProductList((prev) =>
+              prev.filter((product) => product.price > 200)
+            );
+            break;
+
+          default:
+            break;
+        }
+      });
+    }
+
+    if (categoryFilter.length && !keys.length) {
+      const filteredProducts = data.products.filter((product) => {
+        return categoryFilter.some((value) => product.category.includes(value));
+      });
+
+      setProductList(filteredProducts);
+    }
+
+    if (!categoryFilter.length && keys.length) {
+      keys.forEach((key) => {
+        switch (key) {
+          case 'Lower than $20':
+            setProductList(
+              data.products.filter((product) => product.price < 20)
+            );
+            break;
+          case '$20 - $100':
+            setProductList(
+              data.products.filter(
+                (product) => product.price >= 20 && product.price <= 100
+              )
+            );
+            break;
+          case '$100 - $200':
+            setProductList(
+              data.products.filter(
+                (product) => product.price >= 100 && product.price <= 200
+              )
+            );
+            break;
+          case 'More than $200':
+            setProductList(
+              data.products.filter((product) => product.price > 200)
+            );
+            break;
+        }
+      });
+    }
+  }, [priceFilter, categoryFilter]);
   return (
     <MainContainer>
       <HeaderDiv>
@@ -71,43 +177,45 @@ const ProductList = () => {
       </HeaderDiv>
       <MidContainer>
         <div>
-          <div>
-            <h3>Category</h3>
-            {category.map((category) => {
+          <h3>Category</h3>
+          <Box>
+            {categories.map((category, index) => {
               return (
-                <ListContainer>
+                <ListContainer key={index}>
                   <List>
-                    <input type="checkbox" name="" id="category" />
+                    <input
+                      type="checkbox"
+                      onChange={(e) => handleCategory(e, index)}
+                      name={category}
+                      id="category"
+                    />
                     <label htmlFor="category">{category}</label>
                   </List>
                 </ListContainer>
               );
             })}
-          </div>
+          </Box>
           <PriceDiv>
             <h3>Price Range</h3>
             <ListContainer>
-              <PriceList>
-                <input type="checkbox" name="" id="price1" />
-                <label htmlFor="price1">Lower than $20</label>
-              </PriceList>
-              <PriceList>
-                <input type="checkbox" name="" id="price2" />
-                <label htmlFor="price2">$20 - $100</label>
-              </PriceList>
-              <PriceList>
-                <input type="checkbox" name="" id="price3" />
-                <label htmlFor="price3">$100 - $200</label>
-              </PriceList>
-              <PriceList>
-                <input type="checkbox" name="" id="price4" />
-                <label htmlFor="price4">More than $200</label>
-              </PriceList>
+              {priceData.map((price) => {
+                return (
+                  <PriceList key={price.id}>
+                    <input
+                      type="checkbox"
+                      name={price.title}
+                      id="price"
+                      onChange={(e) => handlePrice(e)}
+                    />
+                    <label htmlFor="price">{price.title}</label>
+                  </PriceList>
+                );
+              })}
             </ListContainer>
           </PriceDiv>
         </div>
         <ImgContainer>
-          {productList.slice(0, 6).map((product) => {
+          {productList.map((product) => {
             return <Product key={product.id} product={product} />;
           })}
         </ImgContainer>

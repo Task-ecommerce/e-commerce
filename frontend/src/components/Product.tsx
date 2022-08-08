@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import styled from 'styled-components';
 
 const ImgCard = styled.div`
@@ -58,7 +58,7 @@ type ProductProps = {
     id: number;
     name: string;
     price: number;
-    category: string;
+    category: string[];
     image: {
       src: string;
     };
