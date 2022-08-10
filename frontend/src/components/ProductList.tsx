@@ -56,6 +56,17 @@ const Box = styled.div`
   grid-template-columns: 1fr 1fr;
 `;
 
+const SortSelect = styled.select`
+border: none;
+outline: none;
+cursor: pointer;
+`
+const SortBy = styled.button`
+background:transparent;
+border: none;
+cursor: pointer;
+`
+
 const ProductList = () => {
   const [productList, setProductList] = useState(data.products);
   const [priceFilter, handlePriceFilter] = useFilter({});
@@ -163,16 +174,19 @@ const ProductList = () => {
       });
     }
   }, [priceFilter, categoryFilter]);
+
+
+  
   return (
     <MainContainer>
       <HeaderDiv>
         <h3>Photography/ Premium Photos</h3>
         <div>
-          <button>Sort By</button>
-          <select>
+          <SortBy>Sort By</SortBy>
+          <SortSelect>
             <option value="price">Price</option>
             <option value="name">Name</option>
-          </select>
+          </SortSelect>
         </div>
       </HeaderDiv>
       <MidContainer>
