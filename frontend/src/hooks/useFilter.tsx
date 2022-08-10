@@ -1,10 +1,5 @@
 import { useState } from 'react';
 
-interface TargetValues {
-  name: string;
-  checked: boolean;
-}
-
 interface DefaultFilters {
   name: string;
   checked: boolean;
@@ -13,8 +8,8 @@ interface DefaultFilters {
 export default function useFilter(defaultFilter: DefaultFilters | any) {
   const [filter, setFilter] = useState(defaultFilter);
 
-  function handleFilter({ name, checked }: TargetValues) {
-    let container;
+  function handleFilter({ name, checked }: DefaultFilters) {
+    let container: { [key: string]: boolean } = {};
     if (checked) {
       container = { ...filter, [name]: checked };
     } else {
@@ -28,5 +23,5 @@ export default function useFilter(defaultFilter: DefaultFilters | any) {
     setFilter(container);
   }
 
-  return [filter, handleFilter];
+  return [filter, handleFilter] as const;
 }

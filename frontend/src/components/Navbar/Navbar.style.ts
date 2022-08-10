@@ -1,8 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
-import { MdOutlineLocalGroceryStore } from 'react-icons/md';
 
-const Wrapper = styled.nav`
+export const Wrapper = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +15,7 @@ const Wrapper = styled.nav`
   z-index: 10;
 `;
 
-const Title = styled.h1`
+export const Title = styled.h1`
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
@@ -27,23 +25,8 @@ const Title = styled.h1`
   }
 `;
 
-const Store = styled.div`
+export const Store = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
 `;
-
-type Props = {
-  title: string;
-};
-
-export default function Navbar(props: Props) {
-  return (
-    <Wrapper>
-      <Title>{props.title}</Title>
-      <Store>
-        <MdOutlineLocalGroceryStore size={30} />
-      </Store>
-    </Wrapper>
-  );
-}

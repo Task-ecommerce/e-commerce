@@ -3,7 +3,7 @@ import FeaturedProduct from './components/FeaturedProduct';
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
       <Navbar title="Bejamas" />
