@@ -1,7 +1,7 @@
 import './App.css';
 import FeaturedProduct from './components/FeaturedProduct';
-import Navbar from './components/Navbar/Navbar';
-import ProductList from './components/ProductList/ProductList';
+import Navbar from './components/Navbar';
+import ProductList from './components/ProductList';
 
 function App(): JSX.Element {
   return (
