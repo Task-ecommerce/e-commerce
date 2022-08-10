@@ -76,7 +76,7 @@ const Product = (props: ProductProps) => {
         <Button>ADD TO CART</Button>
         <Bestseller>{bestseller && 'Bestseller'}</Bestseller>
       </ImgDiv>
-      <Category>{category}</Category>
+      <Category>{category.join(" ")}</Category>
       <Name>{name}</Name>
       <Price>${price}</Price>
     </ImgCard>
