@@ -14,17 +14,18 @@ import {
   PriceDiv,
   PriceList,
 } from './ProductList.style';
+import styled from 'styled-components';
 
 const SortSelect = styled.select`
-border: none;
-outline: none;
-cursor: pointer;
-`
+  border: none;
+  outline: none;
+  cursor: pointer;
+`;
 const SortBy = styled.button`
-background:transparent;
-border: none;
-cursor: pointer;
-`
+  background: transparent;
+  border: none;
+  cursor: pointer;
+`;
 
 const ProductList = () => {
   const [productList, setProductList] = useState(data.products);
@@ -134,8 +135,6 @@ const ProductList = () => {
     }
   }, [priceFilter, categoryFilter]);
 
-
-  
   return (
     <MainContainer>
       <HeaderDiv>
