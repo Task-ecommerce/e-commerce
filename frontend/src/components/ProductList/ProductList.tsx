@@ -29,7 +29,7 @@ const SortBy = styled.button`
 
 const ProductList = () => {
   const [productList, setProductList] = useState(data.products);
-  const [priceFilter, handlePriceFilter] = useFilter({});
+  const [priceFilter, setPriceFilter] = useState([] as string[]);
   const [categoryFilter, setCategoryFilter] = useState([] as string[]);
 
   const handleCategory = (
@@ -46,13 +46,14 @@ const ProductList = () => {
   };
 
   const handlePrice = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, checked } = e.target;
-    handlePriceFilter({ name, checked });
+    const { checked, value } = e.target;
+    if (checked) {
+      setPriceFilter([value]);
+    }
   };
 
   useEffect(() => {
-    const keys = Object.keys(priceFilter);
-    console.log(keys);
+    const keys = priceFilter;
     if (!categoryFilter.length && !keys.length) {
       setProductList(data.products);
     }
@@ -174,8 +175,9 @@ const ProductList = () => {
                 return (
                   <PriceList key={price.id}>
                     <input
-                      type="checkbox"
-                      name={price.title}
+                      type="radio"
+                      name="price"
+                      value={price.title}
                       id="price"
                       onChange={(e) => handlePrice(e)}
                     />

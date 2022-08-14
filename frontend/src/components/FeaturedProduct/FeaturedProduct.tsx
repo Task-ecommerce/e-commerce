@@ -52,8 +52,8 @@ const FeaturedProduct = () => {
         <RecommendationDiv>
           <h3>People Also Buy</h3>
           <div>
-            {details.recommendations.map((item) => {
-              return <DescImg src={item.src} alt={item.alt} />;
+            {details.recommendations.map((item, index) => {
+              return <DescImg key={index} src={item.src} alt={item.alt} />;
             })}
           </div>
           <Details>
