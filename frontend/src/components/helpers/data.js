@@ -17,6 +17,10 @@ const priceData = [
     id: 4,
     title: 'More than $200',
   },
+  {
+    id: 5,
+    title: 'Get all Price',
+  },
 ];
 
 const categories = data.products
