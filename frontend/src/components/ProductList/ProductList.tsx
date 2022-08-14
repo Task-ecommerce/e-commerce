@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import data from '../../data.json';
 import Product from '../Product/Product';
-import useFilter from '../../hooks/useFilter';
 import { categories, priceData } from '../helpers/data';
 import {
   Box,
@@ -28,9 +27,20 @@ const SortBy = styled.button`
 `;
 
 const ProductList = () => {
-  const [productList, setProductList] = useState(data.products);
+  const [productList, setProductList] = useState(
+    data.products.sort((a, b) => {
+      if (a.name < b.name) {
+        return -1;
+      }
+      if (a.name > b.name) {
+        return 1;
+      }
+      return 0;
+    })
+  );
   const [priceFilter, setPriceFilter] = useState([] as string[]);
   const [categoryFilter, setCategoryFilter] = useState([] as string[]);
+  const [sortFilter, setSortFilter] = useState('name');
 
   const handleCategory = (
     e: React.ChangeEvent<HTMLInputElement>,
@@ -52,8 +62,29 @@ const ProductList = () => {
     }
   };
 
+  const handleSelect = (e: any) => {
+    console.log(e.target.value);
+    setSortFilter(e.target.value);
+  };
+
+  const sorted = [...productList].sort((a, b): any => {
+    if (sortFilter === 'name') {
+      if (a.name < b.name) {
+        return -1;
+      }
+      if (a.name > b.name) {
+        return 1;
+      }
+      return 0;
+    }
+    if (sortFilter === 'price') {
+      return a.price - b.price;
+    }
+  });
+
   useEffect(() => {
     const keys = priceFilter;
+
     if (!categoryFilter.length && !keys.length) {
       setProductList(data.products);
     }
@@ -134,7 +165,7 @@ const ProductList = () => {
         }
       });
     }
-  }, [priceFilter, categoryFilter]);
+  }, [priceFilter, categoryFilter, sortFilter]);
 
   return (
     <MainContainer>
@@ -142,9 +173,9 @@ const ProductList = () => {
         <h3>Photography/ Premium Photos</h3>
         <div>
           <SortBy>Sort By</SortBy>
-          <SortSelect>
-            <option value="price">Price</option>
+          <SortSelect onChange={handleSelect}>
             <option value="name">Name</option>
+            <option value="price">Price</option>
           </SortSelect>
         </div>
       </HeaderDiv>
@@ -189,12 +220,11 @@ const ProductList = () => {
           </PriceDiv>
         </div>
         <ImgContainer>
-          {productList.map((product) => {
+          {sorted.map((product) => {
             return <Product key={product.id} product={product} />;
           })}
         </ImgContainer>
       </MidContainer>
-      <div>Pagination</div>
     </MainContainer>
   );
 };
